@@ -1,8 +1,11 @@
 # Glovraille
+
 ## Introduction
+---
 Gloveraille is a glove that act as a  braille keyboard that is based on an arduino board. 
 
 ## Concept
+---
 The concept is verry simple, as shown in the figure bellow, the user will type a character using the selector and the character zone, when the user finish typing the character, he can confirm weither it is a number or character using one of the options in the forth finger, the character is then sent to the connected device (computer, phone or other compaptible device) after confirmation. The user can also send space, delete, enter or correct.
 The glovebraille consists of 10 pads, 6 for character input, 3 for diffrent options and one pad as a selector. The role of each pad is as follow:
 * pad number 0: the selector
@@ -14,7 +17,11 @@ The glovebraille consists of 10 pads, 6 for character input, 3 for diffrent opti
 ![Gloveraille schema](Schema.png)
 
 The braille alphabet suported now is presented in the folowing figure:
-![Braille alphabet](braille-alphabet.jpeg)
 
-### proof of concept
+![Braille alphabet](braille-alphabet.jpeg#center)
+ 
+
+
+## proof of concept
+---
 [![Blinking LEDs](http://img.youtube.com/vi/Om23hgbdo2s/0.jpg)](https://youtu.be/Om23hgbdo2s "Glovraille: another braille keyboard")
