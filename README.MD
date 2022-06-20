@@ -23,5 +23,14 @@ The braille alphabet suported now is presented in the folowing figure:
 
 
 ## proof of concept
+The first prototype is made from a simple glove, with alimunium foil stick to the glove using double tape. For connection, wires from a headphone are used for their flixibility.
+
+![Portotype](image1.jpg)
+
+The ideal is to have instead of aluminuim foil a conductive textile, however, I connot find any and it will take long time to arrive if ordred from elsewhere. Also, insted of aluminium foil and double side tape, there is aluminium tape, but that what I have at the moment of making this prototype. For wires, there is also some kind of conductive thread, but for the same reasons mentionned befor, I used wires from and old headphone.
+
+![Portotype](image2.jpg)
+
+Here is a short video of the prototype in action:
 
 [![Blinking LEDs](http://img.youtube.com/vi/Om23hgbdo2s/0.jpg)](https://youtu.be/Om23hgbdo2s "Glovraille: another braille keyboard")
