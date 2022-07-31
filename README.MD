@@ -56,19 +56,14 @@ To build the Glovraille you need the flowing tools:
 
 i. The first step is to solder the headphone wires to the Arduino pins (for simplicity, I used the pins 2,3,4,5,6,7 for letters, and 11,12,13 for function buttons).
 <center>
-<img src="./images/wire_soldering_to_arduino.JPG" width="300">
-<img src="./images/wires_after_soldering.JPG" width="300">
+<img src="./images/wire_soldering_to_arduino.JPG" width="300"><img src="./images/wires_after_soldering.JPG" width="300">
 </center>
 
 ii. Add the headphone wires to the glove using a needle.
 
 <center>
-<img src="./images/sewing0.JPG" width="200">
-<img src="./images/sewing1.JPG" width="200">
-<img src="./images/sewing2.JPG" width="200">
-<img src="./images/sewing3.JPG" width="200">
-<img src="./images/sewing4.JPG" width="200">
-<img src="./images/sewing5.JPG" width="200">
+<img src="./images/sewing0.JPG" width="300"><img src="./images/sewing1.JPG" width="300"><img src="./images/sewing2.JPG" width="300"><img src="./images/sewing3.JPG" width="300"><img src="./images/sewing4.JPG" width="300">
+<img src="./images/sewing5.JPG" width="300">
 </center>
 
 iii. Add the conductive thread: I'm not good at sewing, so I tried to have a big suface of the conductive thread, also, I tried diffrent shapes, but they all work fine.
