@@ -1,31 +1,50 @@
 
 void update_letter(int i){
-  
+
+  // The index of the table is the pin -2 as I started from GPIO pin 2
   int index=i-2;
-  l.alpha[index]=1;
-  
- /*for(int i=0;i<3;i++){
-    Serial.print(l.alpha[i]);
-    Serial.print("\t");
-    Serial.println(l.alpha[i+3]);
-   
-  }  Serial.println();*/
+
+  // update the alphabet
+  alpha[index]=1;
 }
 
+// function to init the alpha array
+void init_alpha(){
+  for(int i=0;i<6;i++){
+    alpha[i]=0;
+  }
+}
+
+// function that will print the letter
 void print_letter(char t){
   long n=0;
   long mult=100000;
   for(int i=0;i<6;i++){
-    n+=mult*l.alpha[i];
-    l.alpha[i]=0;
+    n+=mult*alpha[i];
+    alpha[i]=0;
     mult/=10;
   }
- //Serial.print("n= ");
-  //Serial.println(n);
-  char c;
+
+  // edit the letter or send the Enter char
+  if(t=='e'){
+    if(n!=0){
+      init_alpha(); //edit the letter
+      Serial.println(" <<Letter edited>> "); 
+    }else{
+      Serial.println();
+      Serial.println(" <<Enter pressed>>"); 
+      
+    }
+    
+    return; // no need to print the letter
+  }
+  
+
+  char c;  // the character to be printed
+  
   switch(n){
     case 100000:
-      c=(t=='a')?'A':'1';
+      c=(t=='a')?'A':'1'; // if the argument is equal to 'a' then the user want to print a character, else a number
       break;
     case 110000:
       c=(t=='a')?'B':'2';
@@ -125,10 +144,8 @@ void print_letter(char t){
       break;
       
     default:
-      c=' ';
+      c=' '; // the default character is space.
   }
-  //Serial.print("c= ");
   Serial.print(c);
-  //Serial.println();
   delay(100);
 }
