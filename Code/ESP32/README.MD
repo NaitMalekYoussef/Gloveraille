@@ -14,8 +14,8 @@ You can follow the steps stated in the first version in order to build the proto
 Arduino pro mini, we are using an ESP32, so you need to use the appropriate pins of the ESP32.
 :heavy_exclamation_mark:: You might know that the ESP32 has pins that support touch sensors. However, the
 prototype I build, the conductive thread is exposed in the inside and always connected to the skin.
-![Glove top](../top.JPG)
-![Glove top](../bottom.JPG)
+![Glove top](top.JPG)
+![Glove top](bottom.JPG)
 
 ### Code
 The code is divided into tree file: `gloveraille.ino`, `functions.ino` and `config.ino`.
@@ -23,7 +23,7 @@ The code is divided into tree file: `gloveraille.ino`, `functions.ino` and `conf
 * **functions.ino** : Contains the definition of used functions. 
 * **config.ino** : Config file, used to map the ESP32 pins to each of the pads in the glove. The function of
   each pad is shown in the following picture:
-![pads](../gloveraillev3.png)
+![pads](gloveraillev3.png)
 
 ### Test
 The following video shows the prototype in action.
