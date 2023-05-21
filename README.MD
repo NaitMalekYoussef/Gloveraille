@@ -5,7 +5,8 @@
 2. [Concept](#concept)
 3. [Proof of concept (version 1)](#proof-of-concept)
 4. [Build process (version 2)](#build-process-version-2)
-5. [Proof of concept (version 3)](#proof-of-concept-version-3)
+5. [Proof of concept (version 2)](#proof-of-concept-version-2)
+6. [Proof of concept (version 3)](#proof-of-concept-version-3)
 
 ## Introduction
 
