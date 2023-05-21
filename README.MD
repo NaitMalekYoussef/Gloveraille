@@ -4,8 +4,8 @@
 1. [Introduction](#introduction)
 2. [Concept](#concept)
 3. [Proof of concept (version 1)](#proof-of-concept)
-4. [Build process (version 2)](#build-process-version-1)
-3. [Proof of concept (version 2)](#proof-of-concept-version-2)
+4. [Build process (version 2)](#build-process-version-2)
+5. [Proof of concept (version 3)](#proof-of-concept-version-3)
 
 ## Introduction
 
@@ -99,3 +99,7 @@ The solution to this problem is just to remove the built-in LED. I was willing t
 Here is a short video of the version 2 of the prototype in action:
 
 [![GlovrailleV2](https://i.ytimg.com/vi/Pz3dDO06ras/hqdefault.jpg)](https://youtu.be/Pz3dDO06ras "Glovraille: another braille keyboard (version 2)")
+## Proof of concept (version 3)
+Here is a short video of the version 3 of the prototype in action:
+
+[![Glovraille V3](Schema.png)](https://youtu.be/56T3__j86HA "Glovraille: braille Bluetooth keyboard (version 3)")
